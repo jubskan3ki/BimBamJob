@@ -54,7 +54,7 @@ function App() {
       <input type="file" onChange={handleFileChange} />
       {results.map((position, index) => (
         <div key={index}>
-          <p>For the mower {index + 1}, final position is [{position.x}, {position.y}] and orientation is {position.direction}</p>
+          <p>Tondeuse {index + 1}, position final : [{position.x}, {position.y}] avec une orientation vers {position.direction}</p>
         </div>
       ))}
     </div>
